@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 3,
+	"name": "bm/apple-app-store",
+	"title": "Apple App Store Button",
+	"description": "Allow user to add Apple App Store Button.",
+	"version": "1.0.0",
+	"icon": "store",
+	"attributes": {
+		"link": {
+			"type": "string",
+			"default": "https://apps.apple.com/us/app/apple-store/id375380948"
+		},
+		"alt": {
+			"type": "string",
+			"default": "Apple App Store"
+		},
+		"width": {
+			"type": "number",
+			"default": 150
+		},
+		"target": {
+			"type": "string",
+			"default": "_blank"
+		}
+    },
+	"category": "blocks-monster",
+	"textdomain": "blocks-monster",
+	"editorScript": "bm-apple-app-store"
+}

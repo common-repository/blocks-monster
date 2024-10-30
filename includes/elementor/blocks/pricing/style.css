@@ -1,0 +1,208 @@
+/** Toggle Button */
+.bm-pricing__toggle-text {
+	color: #9F41C0;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.bm-pricing__toggle-btns {
+	display: inline-flex;
+	background: white;
+	border: 1px solid #e4e4e7;
+	border-radius: 82px;
+	padding: 3px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #a1a1aa;
+}
+
+.bm-pricing__toggle-btn {
+	padding: 0px 12px;
+	cursor: pointer;
+}
+
+.bm-pricing__active-0 .bm-pricing__toggle-btns > .bm-pricing__toggle-btn:nth-child(1),
+.bm-pricing__active-1 .bm-pricing__toggle-btns > .bm-pricing__toggle-btn:nth-child(2),
+.bm-pricing__active-2 .bm-pricing__toggle-btns > .bm-pricing__toggle-btn:nth-child(3) {
+	background: linear-gradient(90deg, #8E3ADE 0.3%, #EF602D 99.92%);
+	color: white;
+	border-radius: 82px;
+}
+
+.bm-pricing__active-0 .bm-pricing__plan--multi-prices .bm-pricing__plan-price-box:nth-child(1),
+.bm-pricing__active-1 .bm-pricing__plan--multi-prices .bm-pricing__plan-price-box:nth-child(2),
+.bm-pricing__active-2 .bm-pricing__plan--multi-prices .bm-pricing__plan-price-box:nth-child(3) {
+	display: none;
+}
+
+.bm-pricing-toggle {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 0 0 60px 0;
+}
+
+/** Price */
+.bm-pricing__plan {
+	padding: 30px;
+	border: 2px solid #E4E4E7;
+	border-radius: 8px;
+	flex: 1;
+}
+
+.bm-pricing .bm-pricing__plan-title {
+	color: #1C224B;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	margin: 0;
+}
+
+.bm-pricing__plan-description {
+	color: #1C224B;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 5px 0 30px 0;
+}
+
+.bm-pricing__plan-price-box {
+	color: #1C224B;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.bm-pricing__plans {
+	display: flex;
+	gap: 20px;
+}
+
+.bm-lifetime-offer-price, .bm-annual-offer-price {
+	color: #1C224B;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.bm-annual-price {
+	text-decoration: line-through;
+	opacity: .5;
+}
+
+.bm-pricing__plan-price {
+	display: flex;
+	gap: 5px;
+	align-items: baseline;
+}
+
+.bm-pricing-button a {
+	border-radius: 5.203px;
+	background: linear-gradient(90deg, #8E3ADE 0.3%, #EF602D 99.92%);
+	text-decoration: none !important;
+	padding: 10px 20px;
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	display: block;
+	text-align: center;
+}
+
+.bm-pricing .fa {
+	background: linear-gradient(90deg, #8E3ADE 0.3%, #EF602D 99.92%);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.bm-pricing .bm-pricing__plan-features-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	color: #1C224B;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.bm-pricing .bm-pricing__plan-features-item {
+	display: flex;
+	gap: 15px;
+}
+
+.bm-pricing-button {
+	margin: 0 0 50px 0;
+}
+
+.bm-pricing__plan-name {
+	color: #1C224B;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	margin: 0;
+}
+
+.bm-pricing__plan-prefix {
+	color: #1C224B;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.bm-pricing__plan-button {
+	border-radius: 5.203px;
+	background: linear-gradient(90deg, #8E3ADE 0.3%, #EF602D 99.92%);
+	text-decoration: none !important;
+	padding: 10px 20px;
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	display: block;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+}
+
+.bm-pricing__plan-button:hover {
+	background: linear-gradient(90deg, #EF602D 0.3%, #8E3ADE 99.92%);
+	color: #fff;
+}
+
+.bm-pricing__plan-save {
+	font-size: 14px;
+	color: #08d11a;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+.bm-pricing__plan-feature {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.bm-pricing__plan-features {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 30px 0 0 0;
+}
+
+.bm-pricing__plan--single-price .bm-pricing__plan-button-box {
+	margin: 45px 0 0 0;
+}
+
+.bm-pricing__plan-have-offer-price .bm-pricing__plan-price-value {
+	opacity: .5;
+	text-decoration: line-through;
+}
+
+@media all and (max-width: 768px) {
+	.bm-pricing__plans {
+		flex-direction: column;
+	}
+}

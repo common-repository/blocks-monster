@@ -1,0 +1,31 @@
+.blocks_monster-countdown-timer {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	gap: 5px;
+}
+
+.blocks_monster-countdown-timer > li {
+	display: flex;
+	flex-direction: column;
+	height: 50px;
+	width: 50px;
+	align-items: center;
+	justify-content: center;
+	background: blue;
+	color: white;
+	border-radius: 5px;
+}
+
+.blocks_monster-countdown-timer .count {
+	font-weight: bold;
+	line-height: 1em;
+	font-size: 16px;
+	margin: 0 0 2px 0;
+}
+
+.blocks_monster-countdown-timer span:last-child {
+	font-size: 12px;
+	line-height: 1em;
+}

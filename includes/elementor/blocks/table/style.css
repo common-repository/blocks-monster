@@ -1,0 +1,34 @@
+.blocks_monster-table-wrap {
+	overflow-x: auto;
+}
+
+.blocks_monster-table table {
+	color: black;
+	text-wrap: nowrap;
+	margin: 0;
+	font-size: 14px;
+}
+
+.blocks_monster-table table,
+.blocks_monster-table td,
+.blocks_monster-table th {
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.blocks_monster-table-wrap {
+	margin: 0 0 20px 0;
+}
+
+.blocks_monster-table tr:nth-child(odd) {
+	background: #dcddde;
+}
+
+.blocks_monster-table tr:nth-child(even) {
+	background: #bcbec0;
+}
+
+.blocks_monster-table__key {
+	background: black;
+	color: white;
+}

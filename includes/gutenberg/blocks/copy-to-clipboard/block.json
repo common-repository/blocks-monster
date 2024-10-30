@@ -1,0 +1,63 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 3,
+	"name": "bm/copy-to-clipboard",
+	"title": "Copy to Clipboard",
+	"description": "Allow user to copy text to clipboard.",
+	"version": "1.0.0",
+	"icon": "clipboard",
+	"usesContext": [ "postId", "postType", "queryId" ],
+	"attributes": {
+		"content": {
+			"type": "string",
+			"default": ""
+		},
+		"buttonText": {
+			"type": "string",
+			"default": "Copy to Clipboard"
+		},
+		"buttonTextCopied": {
+			"type": "string",
+			"default": "Copied!"
+		}
+    },
+	"supports": {
+        "color": {
+            "background": true,
+            "text": true
+        },
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"textAlign": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true
+			}
+		},
+        "spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"__experimentalBorder": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true,
+			"__experimentalSkipSerialization": true,
+			"__experimentalDefaultControls": {
+				"color": true,
+				"radius": true,
+				"style": true,
+				"width": true
+			}
+		}
+    },	
+	"category": "blocks-monster",
+	"textdomain": "blocks-monster",
+	"style": "file:./css/style.css",
+	"editorScript": "file:./js/index.js",
+	"script": [
+		"jquery",
+		"file:./js/frontend.js"
+	]
+}

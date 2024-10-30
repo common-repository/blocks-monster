@@ -1,0 +1,15 @@
+.bm-el-tax-term-title .bm-el-tax-term-title__value a {
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 1.7;
+    color: black;
+}
+
+.bm-el-tax-term-title .bm-el-tax-term-title__value {
+    margin: 0 0 0 0;
+}
+
+.bm-el-tax-term-title__description {
+    font-size: 16px;
+    line-height: 1.7;
+}

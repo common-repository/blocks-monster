@@ -1,0 +1,69 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 3,
+	"name": "bm/terms-list",
+	"title": "Terms List",
+	"description": "Display a list of terms.",
+	"version": "0.0.1",
+	"icon": "smiley",
+	"attributes": {
+		"perPage": {
+			"type": "number",
+			"default": 10
+		},
+		"order": {
+			"type": "string",
+			"default": "asc"
+		},
+		"orderBy": {
+			"type": "string",
+			"default": "name"
+		},
+        "orientation": {
+            "type": "string",
+            "default": "vertical"
+        },
+        "sepertor": {
+            "type": "string",
+            "default": ", "
+        },
+        "taxonomy": {
+            "type": "string",
+            "default": "category"
+        },
+        "hideEmpty": {
+            "type": "boolean",
+            "default": false
+        },
+		"showCount": {
+			"type": "boolean",
+			"default": false
+		}
+    },
+	"supports": {
+        "color": {
+            "background": true,
+            "text": true,
+            "link": true,
+			"enableContrastChecker": true,
+			"gradients": true
+        },
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"textAlign": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true
+			}
+		},
+        "spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"align": true
+    },	
+	"category": "blocks-monster",
+	"textdomain": "blocks-monster",
+	"style": "file:./css/style.css",
+	"editorScript": "file:./js/index.js"
+}

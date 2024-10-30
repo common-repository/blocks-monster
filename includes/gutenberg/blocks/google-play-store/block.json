@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 3,
+	"name": "bm/google-play-store",
+	"title": "Google Play Store Button",
+	"description": "Allow user to add Google Play Store Button.",
+	"version": "1.0.0",
+	"icon": "store",
+	"attributes": {
+		"link": {
+			"type": "string",
+			"default": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+		},
+		"alt": {
+			"type": "string",
+			"default": "Google Play Store"
+		},
+		"width": {
+			"type": "number",
+			"default": 160
+		},
+		"target": {
+			"type": "string",
+			"default": "_blank"
+		}
+    },
+	"category": "blocks-monster",
+	"textdomain": "blocks-monster",
+	"editorScript": "bm-google-play-store"
+}
